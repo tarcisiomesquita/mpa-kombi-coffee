@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <meta name="description" content="Contate a cafeteria Kombi Coffee">
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="scripts/modernizr.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <section id="logo">
+                <h1>Kombi Coffee</h1>
+                <img src="images/logo_kombi_coffee.png" alt="Logo da loja Kombi Coffee" title="Figura de um circulo contendo uma Kombi e o nome da loja Kombi Coffee">
+            </section>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="local.html">LOCAL</a> </li>
+                    <Li><a href="cardapio.html">CARDÁPIO</a></Li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <section id="banner">
+            <h1>O <b>café</b> que chega até você!</h1>
+            <img src="images/banner.jpg" alt="Banner do site da loja Kombi Coffee" title="Imagem de uma xícara de café expresso e grãos de café sobre uma mesa">
+            <div id="bloco-de-texto">
+                <p>Cafés super selecionados e com muito mais sabor</p>
+            </div>
+        </section>
+        <main role="main">
+            <h2>Entre em contato conosco</h2>
+            <section id="contato">
+                <form action="https://formspree.io/f/xgergdyg" method="POST">
+                    <div>
+                        <label for="nome">NOME</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>  
+                    </div>    
+                    <div>
+                        <label for="email">E-MAIL</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div>
+                        <label for="comentarios">COMENTÁRIOS</label>
+                        <textarea id="comentarios" name="comentarios" placeholder="Digite seus comentários" cols="50" rows="5" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class=botao>Enviar <i class="fa fa-coffee" aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <p>Copyright</p>
+        </footer>
+    </div>
+</body>
+</html>
